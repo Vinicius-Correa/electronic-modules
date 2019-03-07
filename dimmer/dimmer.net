@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/vinicius/git/electronic-modules/dimmer/dimmer.sch)
-    (date "qua 06 mar 2019 19:22:44 -03")
+    (date "qua 06 mar 2019 21:22:32 -03")
     (tool "Eeschema 5.0.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -72,7 +72,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5C7FFF35))
     (comp (ref R6)
-      (value 30k/1W)
+      (value 15k/1W)
       (footprint Resistors_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P25.40mm_Horizontal)
       (datasheet ~)
       (libsource (lib Device) (part R) (description Resistor))
@@ -86,7 +86,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5C7FFFCC))
     (comp (ref R5)
-      (value 30k/1W)
+      (value 15k/1W)
       (footprint Resistors_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P25.40mm_Horizontal)
       (datasheet ~)
       (libsource (lib Device) (part R) (description Resistor))
