@@ -5,9 +5,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "Dimmer Module"
+Date "2019/03/06"
+Rev "00"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -454,12 +454,6 @@ Wire Wire Line
 	7200 3150 7200 3300
 Wire Wire Line
 	7200 3300 7400 3300
-Text Notes 7360 7530 0    98   ~ 0
-Dimmer Module
-Text Notes 8155 7640 0    59   ~ 0
-2019/03/06
-Text Notes 10585 7645 0    59   ~ 0
-00
 $Comp
 L Triac_Thyristor:TIC216 Q1
 U 1 1 5C804ECB
