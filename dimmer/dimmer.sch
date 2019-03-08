@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:dimmer-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -108,7 +107,7 @@ U 1 1 5C7FFF7E
 P 6350 3200
 F 0 "R6" V 6450 3200 50  0000 C CNN
 F 1 "15k/1W" V 6550 3200 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P25.40mm_Horizontal" V 6280 3200 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 6280 3200 50  0001 C CNN
 F 3 "~" H 6350 3200 50  0001 C CNN
 	1    6350 3200
 	0    1    1    0   
@@ -130,7 +129,7 @@ U 1 1 5C80001F
 P 6350 3000
 F 0 "R5" V 6150 3000 50  0000 C CNN
 F 1 "15k/1W" V 6250 3000 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P25.40mm_Horizontal" V 6280 3000 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 6280 3000 50  0001 C CNN
 F 3 "~" H 6350 3000 50  0001 C CNN
 	1    6350 3000
 	0    1    1    0   
@@ -315,9 +314,9 @@ Wire Wire Line
 	5500 4050 5500 4250
 Wire Wire Line
 	5500 4250 5400 4250
-Text GLabel 3050 3700 2    50   Input ~ 0
+Text GLabel 3050 3500 2    50   Input ~ 0
 zero-c
-Text GLabel 3050 3500 2    50   Output ~ 0
+Text GLabel 3050 3700 2    50   Output ~ 0
 dimmer
 $Comp
 L power:GND #PWR02
